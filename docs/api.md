@@ -25,9 +25,9 @@ Error body (all services, all 4xx/5xx):
 `200 OK` (summary list, no menus)
 ```json
 [
-  { "id": "r1", "name": "Dhaka Biryani House", "cuisine": "Bangladeshi" },
-  { "id": "r2", "name": "Napoli Pizza Co.",    "cuisine": "Italian" },
-  { "id": "r3", "name": "Tokyo Ramen Bar",     "cuisine": "Japanese" }
+  { "id": "r1", "name": "Abesh Restaurant",       "cuisine": "Bangladeshi" },
+  { "id": "r2", "name": "Khao San Dhanmondi",     "cuisine": "Thai" },
+  { "id": "r3", "name": "Gojo Ramen Mohammadpur", "cuisine": "Japanese" }
 ]
 ```
 
@@ -36,7 +36,7 @@ Error body (all services, all 4xx/5xx):
 ```json
 {
   "id": "r1",
-  "name": "Dhaka Biryani House",
+  "name": "Abesh Restaurant",
   "cuisine": "Bangladeshi",
   "menu": [
     { "id": "m101", "name": "Kacchi Biryani", "price": 350.00 },
@@ -114,8 +114,8 @@ Request:
 
 | Restaurant | Cuisine | Menu items |
 |---|---|---|
-| `r1` Dhaka Biryani House | Bangladeshi | `m101` Kacchi Biryani 350.00 · `m102` Chicken Roast 220.00 · `m103` Borhani 60.00 |
-| `r2` Napoli Pizza Co. | Italian | `m201` Margherita Pizza 650.00 · `m202` Pepperoni Pizza 780.00 · `m203` Garlic Bread 180.00 |
-| `r3` Tokyo Ramen Bar | Japanese | `m301` Tonkotsu Ramen 520.00 · `m302` Gyoza (6 pcs) 240.00 · `m303` Matcha Ice Cream 150.00 |
+| `r1` Abesh Restaurant | Bangladeshi | `m101` Kacchi Biryani 350.00 · `m102` Chicken Roast 220.00 · `m103` Borhani 60.00 |
+| `r2` Khao San Dhanmondi | Thai | `m201` Tom yum fried rice 650.00 · `m202` nun bun 780.00 · `m203` Garlic Bread 180.00 |
+| `r3` Gojo Ramen Mohammadpur | Japanese | `m301` Tonkotsu Ramen 520.00 · `m302` Gyoza (6 pcs) 240.00 · `m303` Matcha Ice Cream 150.00 |
 
 3 restaurants, 9 menu items.
